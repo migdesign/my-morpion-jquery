@@ -1,0 +1,46 @@
+#morpion, #newSet{
+    display:none;
+}
+#morpion table{
+    border-radius: 5px;
+}
+
+#morpion td{
+    border: 1px solid black;
+    height: 7em;
+    width: 7em;
+}
+#morpion td div.redPlayer{
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    border: 1em solid red;
+    margin : auto;
+}
+
+#morpion td div.bluePlayer::before{
+    font-size:6em;
+    font-family: sans-serif;
+    content: 'X';
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: blue;
+    display: block;
+
+}
+
+#morpion h1.bluePlayer {
+	color: blue;
+}
+#morpion h1.bluePlayer::before {
+    content:'';
+    color: blue;
+    
+}
+#morpion h1.redPlayer {
+	color: red;
+}
+#morpion h1.redPlayer::before {
+	color: red;
+}

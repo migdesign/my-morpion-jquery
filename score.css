@@ -1,0 +1,22 @@
+#score{
+    display: none;
+    width: 450px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+
+}
+#round{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#player1 h2{
+    color: red;
+}
+
+#player2 h2{
+    color: blue;
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Morpion</title>
+    <script type="application/javascript"
+    src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="application/javascript"
+    src="index.js"></script>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div id="app">
+        <h1>Mon super morpion</h1>
+        <div id="start">
+            <form action="">
+                <label for="username1">Nom du joueur 1 : </label>
+                <input id="username1" placeholder="Saisir nom joueur 1 ..."/>
+                <label for="username2">Nom du joueur 2 : </label>
+                <input id="username2" placeholder="Saisir nom joueur 2 ..."/>
+                <button type="button" onclick="morpion.start(true)">Commencer la partie</button>
+            </form>
+        </div>  
+        <div id="score">
+            <div id="player1">
+                   
+                    
+            </div>
+            <div id="round">
+                
+            </div>
+            <div id="player2">
+                
+                    
+             </div>
+        </div>
+        <div id="morpion">
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>  
+        <div id="newSet">
+            <button id="btnNewSet" type="button" onclick="morpion.start(false)">Nouvelle partie</button>
+        </div>
+        <div id="results">
+
+        </div>
+    </div>
+</body>
+</html>

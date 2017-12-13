@@ -1,0 +1,15 @@
+@import url('app.css');
+@import url('start.css');
+@import url('morpion.css');
+@import url('result.css');
+@import url('score.css');
+@import url('players.css');
+
+body{
+    font-family: sans-serif;
+}
+
+
+
+
+

@@ -1,0 +1,19 @@
+{
+  "name": "morpion",
+  "version": "0.0.1",
+  "description": "Jeu du morpion avec JQuery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server",
+    "start": "npm run dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.12.1",
+    "jquery": "^3.2.1",
+    "lite-server": "^2.3.0",
+    "readline": "^1.3.0"
+  }
+}
